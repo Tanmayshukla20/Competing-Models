@@ -10,7 +10,7 @@ For each model:
 
 Files it depends on:
   - schema.sql             (the schema, for the prompt)
-  - golden_dataset.csv     (questions + gold_sql + order_sensitive)
+  - golden_dataset.csv (which was generated as golden_hard.csv)     (questions + gold_sql + order_sensitive)
   - model_openrouter_slug.py  (the 5 models under test -> MODELS)
   - evaluator.py           (the comparison logic)
 
